@@ -1,0 +1,6 @@
+provision latest ansible
+ tpdo symbolic link
+check python latest
+
+E”é–§Œ®‚Ìˆµ‚¢
+Ekonwn_hosts‚É’Ç‰Á?

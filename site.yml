@@ -1,0 +1,3 @@
+---
+- include: vars.yml 
+- include: simple-sonar.yml
