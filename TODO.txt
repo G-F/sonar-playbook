@@ -4,3 +4,9 @@ check python latest
 
 E”é–§Œ®‚Ìˆµ‚¢
 Ekonwn_hosts‚É’Ç‰Á?
+
+
+http://download.oracle.com/otn-pub/java/jdk/8u31-b13/jdk-8u31-linux-x64.rpm
+
+handler‚Ìİ’è
+all‚Éİ’è‚µ‚½Java‚Ì•Ï”‚ğ’¼‚·

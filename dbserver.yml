@@ -1,0 +1,6 @@
+---
+# file: dbserver.yml
+- hosts: localhost
+  sudo: yes
+  roles: 
+      - mysql
