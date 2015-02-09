@@ -1,6 +1,7 @@
 ---
-# file: java.yml
+# file: ciserver
 - hosts: localhost
   sudo: yes
-  roles: 
+  roles:
      - java
+     - jenkins

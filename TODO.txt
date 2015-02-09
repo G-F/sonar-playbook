@@ -10,3 +10,11 @@ http://download.oracle.com/otn-pub/java/jdk/8u31-b13/jdk-8u31-linux-x64.rpm
 
 handlerの設定
 allに設定したJavaの変数を直す
+
+javaのインストール
+ /vars配下に変数宣言
+ 
+ javaのインストールはciserverとsonarserverの二つでやるようにしておけば楽かも
+ 
+
+ http://www.indetail.co.jp/blog/ansible-2/

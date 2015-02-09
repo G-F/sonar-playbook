@@ -1,5 +1,5 @@
 ---
 #- include: java.yml 
 - include: dbserver.yml
-#- include: jenkins.yml
+- include: ciserver.yml
 #- include: sonar.yml
