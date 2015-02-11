@@ -1,3 +1,0 @@
----
-- name: get ths Jenkins repository
-  get_url: url={{JENKINS_REPO_URL}} dest={{JENKINS_REPO_DL_PATH}}  
