@@ -1,2 +1,12 @@
 [localhost]
 127.0.0.1 ansible_connection=local
+
+[dbserver]
+127.0.0.1 ansible_connection=local
+
+[ciserver]
+127.0.0.1 ansible_connection=local
+
+[sonarserver]
+127.0.0.1 ansible_connection=local
+

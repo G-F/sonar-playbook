@@ -1,6 +1,6 @@
 ---
 # file: ciserver
-- hosts: localhost
+- hosts: ciserver
   sudo: yes
   roles:
      - java

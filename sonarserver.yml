@@ -1,6 +1,6 @@
 ---
 # file:sonarserver
-- hosts: localhost
+- hosts: sonarserver
   sudo: yes
   roles:
      - java

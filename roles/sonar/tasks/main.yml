@@ -6,3 +6,5 @@
 - name: be sure sonar is insatlled
   yum: name=sonar state=latest
 
+- name: be sure sonar is running and enabled
+  service: name=sonar state=running enabled=yes

@@ -1,0 +1,3 @@
+---
+# vars for mysql
+MYSQL_REPO_URL: http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm

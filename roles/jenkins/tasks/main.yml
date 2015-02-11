@@ -7,3 +7,7 @@
 
 - name: be sure jenkins is installed
   yum: name=jenkins state=latest
+
+- name: be sure jenkins is running and enabled
+  service: name=jenkins state=running enabled=yes
+
