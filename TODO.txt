@@ -24,8 +24,8 @@ javaのインストール
  ・対象のhostsを分散させる(実運用考えて)
  ・tag付け
  ・Githubで公開
- ・sonar,jenkins,mysqlの自動起動設定
- ・portの設定(Jenkins,sonar)
+ ・sonar,jenkins,mysqlの自動起動設定 done
+ ・portの設定(Jenkins,sonar) 
  ・mysqlとsonarの連携部分
    mysqlのユーザー追加
     - idとpassを自分で設定できるようにする
