@@ -1,0 +1,6 @@
+---
+#define jenkins DL Configure
+JENKINS_REPO_URL: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+JENKINS_REPO_DL_PATH: /etc/yum.repos.d/jenkins.repo
+JENKINS_REPO_KEY: http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+

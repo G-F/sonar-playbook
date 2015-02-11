@@ -1,0 +1,5 @@
+---
+# vars for sonar install
+SONAR_REPO_URL: http://downloads.sourceforge.net/project/sonar-pkg/rpm/sonar.repo
+SONAR_REPO_DL_PATH: /etc/yum.repos.d/sonar.repo
+

@@ -1,3 +1,9 @@
 ---
 - name: get ths Jenkins repository
-  
+  get_url: url={{JENKINS_REPO_URL}} dest={{JENKINS_REPO_DL_PATH}} 
+
+- name: add the Jenkins repository
+  rpm_key: key={{JENKINS_REPO_KEY}} 
+
+- name: be sure jenkins is installed
+  yum: name=jenkins state=latest
