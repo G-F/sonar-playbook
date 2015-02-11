@@ -6,5 +6,22 @@
 - name: be sure sonar is insatlled
   yum: name=sonar state=latest
 
+- name: config sonar.propeties
+  lineinfile: >-
+    dest={{SONAR_PROPERTIES_PATH}}
+    state=present
+    backrefs=yes
+    regexp='{{ item.regexp }}'
+    line='{{ item.line }}'
+  with_items:
+   - regexp: '^#sonar.jdbc.username' 
+     line: 'sonar.jdbc.username={{ DBUSER_NAME }}'
+   - regexp: '^#sonar.jdbc.password'
+     line: 'sonar.jdbc.password={{ DBUSER_PASSWORD }}'
+   - regexp: '^#sonar.jdbc.url=jdbc:mysql'
+     line: 'sonar.jdbc.url={{ JDBC_URL }}'
+
+  tags: sonarconf
+
 - name: be sure sonar is running and enabled
   service: name=sonar state=running enabled=yes

@@ -1,0 +1,20 @@
+---
+# tasks for sonar install
+- name: get the sonar repository
+  get_url: url={{SONAR_REPO_URL}} dest={{SONAR_REPO_DL_PATH}}
+
+- name: be sure sonar is insatlled
+  yum: name=sonar state=latest
+
+- name: config sonar.propeties
+  lineinfile: >-
+  dest={{SONAR_PROPERTIES_PATH}}
+  state=present
+  regexp='{{ item.regexp }}'
+  line='{{ item.line }}
+  with_items:
+   - regexp: 
+     line 
+
+- name: be sure sonar is running and enabled
+  service: name=sonar state=running enabled=yes

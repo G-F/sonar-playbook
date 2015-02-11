@@ -2,4 +2,6 @@
 # vars for sonar install
 SONAR_REPO_URL: http://downloads.sourceforge.net/project/sonar-pkg/rpm/sonar.repo
 SONAR_REPO_DL_PATH: /etc/yum.repos.d/sonar.repo
-
+SONAR_PROPERTIES_PATH: /opt/sonar/conf/sonar.properties
+# FIXME move to hosts_vars
+JDBC_URL: jdbc:mysql://localhost:3306/{{ DBNAME_FOR_SONAR }}?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance

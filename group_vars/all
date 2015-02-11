@@ -1,4 +1,5 @@
 ---
-#define Java DL Configure
-#JAVA_DL_URL: http://download.oracle.com/otn-pub/java/jdk/8u31-b13/jdk-8u31-linux-x64.rpm 
-#JAVA_DL_PATH: /usr/local/src/jdk-8u31-linux-x64.rpm
+#define all groups var
+DBNAME_FOR_SONAR: sonar
+DBUSER_NAME: sonar
+DBUSER_PASSWORD: sonar

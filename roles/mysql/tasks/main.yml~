@@ -16,8 +16,8 @@
 
 - name: Create database user
   mysql_user: >
-    name={{ DBUSER_NAME }}
-    password="{{ DBUSER_PASSWORD }}"
+    name={{ dbuser }}
+    password="{{ dbpassword }}"
     priv={{ DBNAME_FOR_SONAR }}.*:ALL
     state=present
 
