@@ -10,3 +10,4 @@ if ! ['which ansible']; then
     ansible --version
 fi
 
+ansible-playbook -i /vagrant/localhost /vagrant/site.yml

@@ -1,8 +1,0 @@
----
-# tasks for sonar install
-- name: get the sonar repository
-  get_url: url={{SONAR_REPO_URL}} dest={{SONAR_REPO_DL_PATH}}
-
-- name: be sure sonar is insatlled
-  yum: name=sonar state=latest
-
