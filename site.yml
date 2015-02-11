@@ -1,5 +1,4 @@
 ---
-#- include: java.yml 
 - include: dbserver.yml
 - include: ciserver.yml
-#- include: sonarserver.yml
+- include: sonarserver.yml
