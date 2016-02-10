@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if ! ['which ansible']; then
+which ansible
+if [ $? -ne 0 ]; then
     sudo yum -y install python-devel.x86_64 python-setuptools gcc
     sudo easy_install pip
     sudo pip install passlib ansible
@@ -13,7 +14,8 @@ if ! ['which ansible']; then
     ansible --version
 fi
 
-if ! ['which wget']; then
+which wget
+if [ $? -ne 0 ]; then
    sudo yum -y install wget
 fi
   
